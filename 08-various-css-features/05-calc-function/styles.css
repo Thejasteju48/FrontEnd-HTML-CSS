@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --var-width:1000px
+}
+body {
+  font-family: 'Arial', sans-serif;
+}
+.container{
+  background: #000;
+  height: 200px;
+  width: var(--var-width);
+  display: flex;
+}
+.item{
+  /* width: calc(var(--var-width) - 200px); */
+  min-width: calc(calc(100% / 5) - 20px);
+  margin: 10px;
+  background: coral;
+  height: calc(100% - 20px);
+}

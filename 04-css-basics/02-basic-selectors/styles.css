@@ -1,0 +1,41 @@
+html,
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid red;
+}
+h2{
+    font-size: 30px;
+    background-color: blueviolet;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* class-selectors */
+.sporty{
+    color: red;
+}
+.casual{
+    color: blue;
+}
+.formal{
+    color: brown;
+}
+/* Id selectors  */
+#container{
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+}
+/* Multiple-selectors */
+.formal,
+.casusl{
+ font-size: 35px;
+}
+/* Descendent selectors */
+#container a {
+     background-color: red;
+}
+#he{
+ background-color: red;
+}

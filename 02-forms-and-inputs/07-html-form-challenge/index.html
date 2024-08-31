@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <header>
+      <h1>Apartment Search</h1>
+    </header>
+    <h1>HTML & CSS Sandbox - HTML Form Challenge</h1>
+    <form>
+      <label for="location">Location</label>
+      <input type="text" name="location" id="location">
+      <br/>
+      <br/>
+      <label for="tick">Monthly-Price</label>
+      <input type="range" name="tick" id="tickmarks" list="tickmarks" min="10000" max="100000">
+      <datalist id="tickmarks">
+        <option value="10000"></option>
+        <option value="20000"></option>
+        <option value="30000"></option>
+        <option value="40000"></option>
+        <option value="50000"></option>
+        <option value="100000"></option>
+      </datalist>
+      <br/>
+      <br/>
+      <label for="bedrooms">Number of Bedrooms</label>
+      <input type="number" name="number" id="number" >
+      <br/>
+      <br/>
+      <label for="bathrooms">Number of Bathrooms</label>
+      <input type="number" name="number" id="number">
+      <h3>Pets Allowed</h3>
+      <label for="Allowed">
+        <input type="checkbox" name="Allowed" id="Allowed">YES
+      </label>
+      <label for="Not-Allowed">
+        <input type="checkbox" name="Not-Allowed" id="Not-Allowed">NO
+      </label>
+      <br/>
+      <br/>
+      <label for="date">Date Available</label>
+      <input type="date" name="date" id="date">
+      <br/>
+      <br/>
+      <input type="submit" value="submit">
+    </form>
+  </body>
+</html>

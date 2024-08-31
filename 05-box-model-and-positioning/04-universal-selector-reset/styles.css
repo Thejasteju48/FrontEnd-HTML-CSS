@@ -1,0 +1,16 @@
+*{
+  border: red solid 5px;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.box {
+  background: coral;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+}

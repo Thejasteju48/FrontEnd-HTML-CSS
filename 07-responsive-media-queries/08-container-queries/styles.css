@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  display: flex;
+}
+p{
+  padding: 2rem;
+}
+main{
+  margin: 30px auto;
+  padding: 20px;
+  width: 100%;
+  container-type: inline-size;
+}
+main p{
+  background: lightgreen;
+}
+aside{
+  flex: 0 0 30%;
+  background: #f4f4f4f4;
+  padding: 20px;
+  container-type: inline-size;
+  container-name: aside;
+}
+@container (max-width:990px) {
+  main p{
+    background: lightblue;
+  }
+}
+@container aside (max-width){
+  aside p{
+    background: lightgreen;
+  }
+}
